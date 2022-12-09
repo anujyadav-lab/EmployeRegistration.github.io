@@ -6,6 +6,7 @@ const app = express();
 const Register = require("./models/registers");
 const port = process.env.PORT || 1200;
 
+
 // const staticPath = path.join(__dirname,"../public")
 const templatePath = path.join(__dirname, "../templates/views")
 const partialsPath = path.join(__dirname, "../templates/partials")
